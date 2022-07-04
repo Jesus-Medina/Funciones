@@ -1,0 +1,71 @@
+/* Globales */
+html {
+    font-size: 62.5%; /* Resetear el font-size para ocupar REM a 10px*/
+    box-sizing: border-box; /* Hack para boxmodel*/
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    font-size: 16px; /* 1rem = 10px */
+}
+
+html, body{
+    height:100%;
+    margin:0;
+    display: flex;
+    flex-direction: column;
+}
+/* Fin de bloque Globales */
+
+h2 {
+    text-align: center;
+}
+
+.container__flex {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.box__div {
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#caja__1 {
+    background-color: goldenrod;
+}
+
+#caja__2 {
+    background-color: green;
+}
+
+#caja__3 {
+    background-color: yellow;
+}
+
+#caja__4 {
+    background-color: purple;
+}
+
+
+.container__flex .btn {
+    cursor: pointer;
+    padding: 2rem 5.5rem;
+    background-color: gold;
+    border: 1px solid goldenrod;
+    color: black;
+    border-radius: 1rem;
+    margin: .5rem 1rem;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.container__flex .btn:hover {
+    background-color: yellow;
+}
